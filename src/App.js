@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './Components/Navbar';
-import About from './Components/About';
 import TextForm from './Components/TextForm';
 import { useState } from 'react';
 import React from 'react'
@@ -52,8 +51,6 @@ function App() {
       <div>
         <TextForm mode={mode} showAlert={showAlert} />
       </div>
-
-      <About />
     </>
   );
 }
